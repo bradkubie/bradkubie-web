@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { aboutSections, profile } from "../portfolio-content";
 
 export const metadata: Metadata = {
@@ -44,6 +45,29 @@ export default function AboutPage() {
           >
             {profile.email}
           </a>
+        </div>
+      </section>
+
+      <section className="grid gap-6 overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 p-6 shadow-2xl shadow-sky-950/20 backdrop-blur lg:grid-cols-[1.1fr_0.9fr] lg:p-8">
+        <div className="space-y-4">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-sky-300">
+            Personally
+          </p>
+          <h2 className="text-3xl font-semibold tracking-tight text-white">
+            Family, the outdoors, and staying active matter a lot to me.
+          </h2>
+          <p className="max-w-2xl text-base leading-8 text-slate-300">
+            {profile.personalSummary}
+          </p>
+        </div>
+        <div className="overflow-hidden rounded-[1.5rem] border border-white/10 bg-slate-950/50">
+          <Image
+            src="/my-family.jpg"
+            alt="Bradley Kubie with his family"
+            width={5856}
+            height={3904}
+            className="h-full w-full object-cover"
+          />
         </div>
       </section>
 

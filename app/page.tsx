@@ -43,6 +43,12 @@ export default function Home() {
               {profile.location}
             </span>
             <a
+              className="rounded-full border border-white/10 bg-slate-950/40 px-4 py-2 transition hover:border-sky-300 hover:text-sky-200"
+              href={`tel:${profile.phone.replace(/-/g, "")}`}
+            >
+              {profile.phone}
+            </a>
+            <a
               className="rounded-full border border-sky-400/30 bg-sky-400/10 px-4 py-2 text-sky-200 transition hover:border-sky-300 hover:bg-sky-400/20"
               href={`mailto:${profile.email}`}
             >

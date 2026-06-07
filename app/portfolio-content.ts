@@ -1,10 +1,13 @@
 export const profile = {
   name: "Bradley Kubie",
   title: "Software Engineer",
-  location: "Salt Lake City, Utah",
+  location: "St. George, UT",
   email: "bradleykubie6@gmail.com",
+  phone: "208-270-2029",
   summary:
     "Software engineer with 7+ years of experience building cross-border e-commerce and shipping integrations. Specializes in carrier and platform APIs across Shopify, BigCommerce, Magento, WooCommerce, and Salesforce Commerce Cloud, with a focus on reliable software and pragmatic delivery.",
+  personalSummary:
+    "Outside of work, I love golfing, boating, and camping with my family. I also enjoy playing video games, staying active, and spending as much time outdoors as I can.",
   strengths: [
     {
       title: "Cross-border product delivery",
@@ -59,10 +62,8 @@ export const experienceEntries = [
     highlights: [
       "Build and maintain integrations across Shopify, BigCommerce, Magento, WooCommerce, and Salesforce Commerce Cloud that connect merchant stores to Zonos landed-cost, duty, and tax services.",
       "Led development of a UPS-branded BigCommerce Duty & Tax white-label app, including partner account setup, carrier ID registration, and app store submission.",
-      "Built a FedEx Shopify white-label app end to end, covering rating, order processing, label workflows, and merchant onboarding.",
-      "Migrated Shopify rate delivery from the Carrier Service API to Shopify Functions (Wasm) to improve reliability and align with the platform's current direction.",
+      "Led and helped build a FedEx Shopify white-label app, covering rating, order processing, label workflows, and merchant onboarding.",
       "Developed Shopify checkout UI extensions for tax ID capture, currency conversion, and cart-attribute syncing of Zonos data.",
-      "Authored GraphQL workflows for landed-cost calculation and shipment creation, including party and item mapping across carrier and platform schemas.",
       "Shipped a WooCommerce plugin for UPS Global Checkout, including WordPress.org SVN submission, trademark review, and queue-based order processing in PHP.",
       "Owned technical merchant communications for complex integration issues, release notes, configuration guidance, and Shopify App Store compliance reviews.",
     ],
@@ -100,6 +101,7 @@ export const skillGroups = [
       "Node.js",
       "PHP",
       "Java",
+      "Spring",
       "React",
       "Next.js",
     ],
@@ -107,7 +109,6 @@ export const skillGroups = [
   {
     title: "Commerce platforms and APIs",
     skills: [
-      "Shopify Functions",
       "Shopify App Extensions",
       "Shopify Checkout Extensions",
       "BigCommerce",
@@ -121,10 +122,6 @@ export const skillGroups = [
   {
     title: "Shipping and cross-border domain expertise",
     skills: [
-      "UPS APIs",
-      "FedEx APIs",
-      "Royal Mail APIs",
-      "USPS APIs",
       "Landed cost",
       "HS codes",
       "DDP/DDU workflows",
