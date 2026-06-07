@@ -72,7 +72,7 @@ export default function RootLayout({
           </main>
           <footer className="border-t border-white/10 px-6 py-8">
             <div className="mx-auto flex w-full max-w-6xl flex-col gap-2 text-sm text-slate-400 md:flex-row md:items-center md:justify-between">
-              <p>Bradley Kubie · Software Engineer · Salt Lake City, Utah</p>
+              <p>Bradley Kubie · Software Engineer · St. George, Utah</p>
               <a
                 className="transition hover:text-sky-200"
                 href="mailto:bradleykubie6@gmail.com"
