@@ -5,7 +5,7 @@ export const profile = {
   email: "bradleykubie6@gmail.com",
   phone: "208-270-2029",
   summary:
-    "Software engineer with 7+ years of experience building cross-border e-commerce and shipping integrations. Specializes in carrier and platform APIs across Shopify, BigCommerce, Magento, WooCommerce, and Salesforce Commerce Cloud, with a focus on reliable software and pragmatic delivery.",
+    "I am a software engineer with 7+ years of experience building reliable software. Since November 2021, I have worked at Zonos on cross-border e-commerce and shipping integrations. Before that, I worked for The Church of Jesus Christ of Latter-day Saints.",
   personalSummary:
     "Outside of work, I love golfing, boating, and camping with my family. I also enjoy playing video games, staying active, and spending as much time outdoors as I can.",
   strengths: [
@@ -56,7 +56,7 @@ export const experienceEntries = [
     company: "Zonos",
     location: "St. George, Utah",
     role: "Software Engineer",
-    period: "Current role",
+    period: "November 2021 - Present",
     summary:
       "Building and maintaining cross-border commerce integrations for major storefront platforms and shipping partners.",
     highlights: [
@@ -72,7 +72,7 @@ export const experienceEntries = [
     company: "The Church of Jesus Christ of Latter-day Saints",
     location: "Salt Lake City, Utah",
     role: "Software Engineer",
-    period: "Previous role",
+    period: "May 2018 - November 2021",
     summary:
       "Delivered software for high-availability systems in a mission-critical environment with close cross-functional collaboration.",
     highlights: [
