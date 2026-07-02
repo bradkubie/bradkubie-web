@@ -17,7 +17,7 @@ export const profile = {
     {
       title: "White-label partner launches",
       description:
-        "Shipping branded commerce applications for partners such as UPS and FedEx, from onboarding and platform registration through release and merchant adoption.",
+        "Shipping branded commerce applications for major shipping carriers, from onboarding and platform registration through release and merchant adoption.",
     },
     {
       title: "Hands-on technical ownership",
@@ -61,10 +61,10 @@ export const experienceEntries = [
       "Building and maintaining cross-border commerce integrations for major storefront platforms and shipping partners.",
     highlights: [
       "Build and maintain integrations across Shopify, BigCommerce, Magento, WooCommerce, and Salesforce Commerce Cloud that connect merchant stores to Zonos landed-cost, duty, and tax services.",
-      "Led development of a UPS-branded BigCommerce Duty & Tax white-label app, including partner account setup, carrier ID registration, and app store submission.",
-      "Led and helped build a FedEx Shopify white-label app, covering rating, order processing, label workflows, and merchant onboarding.",
+      "Led development of a carrier-branded BigCommerce Duty & Tax white-label app, including partner account setup, carrier ID registration, and app store submission.",
+      "Led and helped build a carrier-branded Shopify white-label app, covering rating, order processing, label workflows, and merchant onboarding.",
       "Developed Shopify checkout UI extensions for tax ID capture, currency conversion, and cart-attribute syncing of Zonos data.",
-      "Shipped a WooCommerce plugin for UPS Global Checkout, including WordPress.org SVN submission, trademark review, and queue-based order processing in PHP.",
+      "Shipped a WooCommerce plugin for a carrier global checkout integration, including WordPress.org SVN submission, trademark review, and queue-based order processing in PHP.",
       "Owned technical merchant communications for complex integration issues, release notes, configuration guidance, and Shopify App Store compliance reviews.",
     ],
   },
