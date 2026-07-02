@@ -68,6 +68,24 @@ export default function Home() {
             >
               Explore skills
             </Link>
+            <Link
+              className="inline-flex items-center gap-2 rounded-full border border-sky-400/40 bg-sky-400/10 px-6 py-3 text-sm font-semibold text-sky-200 transition hover:border-sky-300 hover:bg-sky-400/20"
+              href="/resume"
+            >
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 20 20"
+                fill="none"
+                className="h-4 w-4"
+                stroke="currentColor"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M10 3v10m0 0 4-4m-4 4-4-4M4 15v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-1" />
+              </svg>
+              Download résumé
+            </Link>
           </div>
         </div>
         <div className="grid gap-4 rounded-[1.5rem] border border-white/10 bg-slate-950/60 p-6">
