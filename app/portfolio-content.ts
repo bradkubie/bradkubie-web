@@ -5,7 +5,7 @@ export const profile = {
   email: "bradleykubie6@gmail.com",
   phone: "208-270-2029",
   summary:
-    "I am a software engineer with 7+ years of experience building reliable software. Since November 2021, I have worked at Zonos on cross-border e-commerce and shipping integrations. Before that, I worked for The Church of Jesus Christ of Latter-day Saints.",
+    "I am a software engineer with 7+ years of experience building reliable software.",
   personalSummary:
     "Outside of work, I love golfing, boating, and camping with my family. I also enjoy playing video games, staying active, and spending as much time outdoors as I can.",
   strengths: [

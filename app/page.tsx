@@ -12,7 +12,7 @@ const featureCards = [
     href: "/experience",
     title: "Experience",
     description:
-      "See the platform work, white-label launches, and e-commerce integrations behind the resume.",
+      "See the platform work, white-label product launches, and e-commerce integrations highlighted throughout the resume.",
   },
   {
     href: "/skills",

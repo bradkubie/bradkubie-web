@@ -9,18 +9,10 @@ export const metadata: Metadata = {
 export default function SkillsPage() {
   return (
     <div className="space-y-10">
-      <section className="space-y-4">
-        <p className="text-sm font-semibold uppercase tracking-[0.3em] text-sky-300">
+      <section>
+        <h1 className="text-sm font-semibold uppercase tracking-[0.3em] text-sky-300">
           Skills
-        </p>
-        <h1 className="text-4xl font-semibold tracking-tight text-white md:text-5xl">
-          Technologies, platforms, and domain depth behind the work.
         </h1>
-        <p className="max-w-3xl text-lg leading-8 text-slate-300">
-          A working toolkit for building integrations, partner apps, and
-          commerce features that connect storefronts, carriers, and backend
-          systems.
-        </p>
       </section>
 
       <section className="grid gap-5 lg:grid-cols-2">
